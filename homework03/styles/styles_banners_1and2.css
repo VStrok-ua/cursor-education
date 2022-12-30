@@ -1,0 +1,109 @@
+body {
+    background-color: #E5E5E5;
+    width: 1488px;
+    height: 1430px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+ }
+/* Banner_1 */
+ .banner_1 {
+    width: 1440px;
+    height: 72px;
+    column-gap: 10px;
+    margin: 228px 24px 24px 24px;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #0B2239;
+ }
+
+ .main_info_1 {
+    width: 922px;
+    height: 40px;
+    margin: 16px 42px 16px 120px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+ }
+
+ .link_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 18px 0px 18px 0px;
+    width: 106px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+ }
+ 
+ .link_text_1{
+    width: 86px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration-line: underline;
+    color: #4AD295;
+ }
+
+ .button_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 18px 0px 18px 0px;
+    width: 130px;
+    height: 36px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background: #4AD295;
+ }
+
+.all_cookies {
+    width: 110px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+ /* Banner_2 */
+
+ .banner_2 {
+   width: 1440px;
+   height: 52px;;
+   display: flex;
+   justify-content: center;
+   margin: 0px 24px;
+   background-color: #2B2627;
+ }
+
+ .main_info_2, .main_info_2_link {
+   width: 689px;
+   height: 20px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #FFFFFF;
+ }
+ 
+ .main_info_2 {
+   margin: 16px 20px 16px 8px;
+ }
+
+ .banner2_1, .banner2_2 {
+   height: 16px;
+   width: 16px;
+   margin-top: 18px;
+ }
