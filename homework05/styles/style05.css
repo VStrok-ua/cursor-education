@@ -121,7 +121,6 @@ td, tr {
 }
 
 .box_3_img {
-    display: inline-block;
     width: 10px;
     height: 10px;
 }
@@ -131,5 +130,3 @@ td, tr {
     color: rgb(181, 181, 181);
     border-top: 1px solid rgb(181, 181, 181);
 }
-
-
