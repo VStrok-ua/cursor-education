@@ -14,7 +14,7 @@ table {
 }
 
 td, tr {
-    padding: 10px 200px 10px 15px;
+    padding: 10px 180px 10px 15px;
 }
 
 /* Table_1 */
@@ -81,7 +81,7 @@ td, tr {
     display: inline-block;
     background-color:rgb(109, 109, 109);
     border-radius: 5px;
-    width: 170px;
+    width: 150px;
     height: 30px;
 }
 
@@ -97,7 +97,7 @@ td, tr {
 .search_inside {
     position: absolute;
     margin: 7px 0px 0px 10px;
-    width: 130px;
+    width: 100px;
     background-color: rgb(110, 110, 110);
     font-family: Arial, sans-serif;
     border:none;
@@ -111,7 +111,6 @@ td, tr {
 }
 
 .dots_img_3 {
-    margin-left: 25px;
     width: 25px;
     opacity: 50%;
 }
@@ -125,8 +124,17 @@ td, tr {
     height: 10px;
 }
 
+.box_3_img_name {
+    padding: 0px 10px 0px 0px;
+    width: 10px;
+    height: 10px;
+}
+
 .column_pdf_3 {
+    gap: 10px;
+    align-items: center;
     font-weight: 100;
     color: rgb(181, 181, 181);
     border-top: 1px solid rgb(181, 181, 181);
+    display: flex;
 }
