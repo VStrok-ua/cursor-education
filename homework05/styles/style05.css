@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    min-width: 1440px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+/* Main options fo all tables*/
+table {
+    border-collapse:collapse;
+    font-family: Arial, sans-serif;
+    background-color: rgb(65, 65, 65);
+    border-radius:10px;
+}
+
+td, tr {
+    padding: 10px 200px 10px 15px;
+}
+
+/* Table_1 */
+
+.border_for_table {
+    border: 1px solid rgb(181, 181, 181);
+    width: 820px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.marker_minus {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px 0px 3px;
+}
+
+.table_first_tr {
+    font-weight: 900;
+    color: rgb(220, 220, 220);
+}
+
+.row_down_img {
+    position: absolute;
+    margin: 2px 0px 0px 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.column_pdf {
+    font-weight: 100;
+    color: rgb(181, 181, 181);
+    border-top: 1px solid rgb(181, 181, 181);
+    width: 820px;
+
+}
+
+.column_date {
+    padding: 5px 15px 5px 15px;
+    font-weight: 100;
+    color: rgb(181, 181, 181);
+    opacity: 50%;
+    border-top: 1px solid rgb(181, 181, 181);
+    width: 820px;
+}
+
+.dots_img {
+    width: 25px;
+    height: 25px;
+    opacity: 50%;
+}
+
+.dots_img_column{
+    padding: 5px 15px 5px 200px;
+    border-top: 1px solid rgb(181, 181, 181);
+}
+
+
+.input_search {
+    padding: 0px 5px 0px 90px;
+}
+
+.search_box {
+    display: inline-block;
+    background-color:rgb(109, 109, 109);
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+}
+
+.search_icon {
+    align-items: center;
+    margin: 7px 0px 0px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.search_inside {
+    position: absolute;
+    margin: 7px 0px 0px 10px;
+    width: 130px;
+    background-color: rgb(110, 110, 110);
+    font-family: Arial, sans-serif;
+    border:none;
+    outline: none;
+}
+
+.search_inside::placeholder {
+    color: white;
+    opacity: 50%;
+    width: 100px;
+}
+
+.dots_img_3 {
+    margin-left: 25px;
+    width: 25px;
+    opacity: 50%;
+}
+
+.date_3_column {
+    padding: 0px 0px 0px 35px;
+}
+
+.box_3_img {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.column_pdf_3 {
+    font-weight: 100;
+    color: rgb(181, 181, 181);
+    border-top: 1px solid rgb(181, 181, 181);
+}
+
+
