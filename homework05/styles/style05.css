@@ -29,7 +29,7 @@ td, tr {
 .marker_minus {
     width: 15px;
     height: 15px;
-    margin: 0px 10px 0px 3px;
+    margin: 0px 5px 0px 3px;
 }
 
 .table_first_tr {
@@ -111,30 +111,34 @@ td, tr {
 }
 
 .dots_img_3 {
+    margin-left: 5px;
     width: 25px;
     opacity: 50%;
 }
-
 .date_3_column {
     padding: 0px 0px 0px 35px;
 }
 
 .box_3_img {
+    padding-left: 5px;
     width: 10px;
     height: 10px;
 }
 
 .box_3_img_name {
-    padding: 0px 10px 0px 0px;
+    padding: 0px 5px 0px 5px;
     width: 10px;
     height: 10px;
 }
 
 .column_pdf_3 {
-    gap: 10px;
+    margin-top: -1px;
+    gap: 5px;
     align-items: center;
     font-weight: 100;
     color: rgb(181, 181, 181);
     border-top: 1px solid rgb(181, 181, 181);
     display: flex;
 }
+
+
