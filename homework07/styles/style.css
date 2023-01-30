@@ -1,0 +1,491 @@
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    height: 4077px;
+    background-color: bisque;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 79px;
+}
+
+.fa-solid {
+    color: #1B2437;
+    cursor: pointer;
+}
+
+.fa-brands{
+    color: #1B2437;
+    cursor: pointer;
+}
+
+.header_icons_social{
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+    height: 18px;
+}
+
+.header_icons_user{
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+    height: 18px;
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 79px;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav_links{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 557px;
+    height: 37px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+    
+}
+
+.nav_links>a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.nav_links>a:hover{
+    color: #EDA3B5;
+    padding-bottom: 5px;
+    border-bottom: 1.2px solid #EDA3B5;
+    text-transform: capitalize;
+}
+
+/* Main */
+
+.dresses_and_looks_block{
+    position: relative;
+    width: 100%;
+    height: 569px;
+    margin-bottom: 71px;
+}
+
+.dresses_background{
+    position: absolute;
+}
+
+.dresses_and_looks_text {
+    position: absolute;
+    margin: 103px 0px 0px 164px;
+
+}
+
+.admire_stylish{
+    text-align: left;
+    margin: 0;
+    width: 361px;
+    height: 134px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.admire_small_text{
+    width: 446px;
+    height: 90px;
+    margin: 0px;
+    margin-top: 13px;
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.dresses_and_looks_text>button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 34px;
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.dresses_and_looks_text>button:hover{
+    color:#EDA3B5;
+}
+
+/* Section with grid 1 */
+
+.woman_collection {
+    margin: 0 auto;
+    width: 1112px;
+    
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 445px 303px 302px;
+    grid-template-rows: 225px 204px;
+    gap: 30px;
+}
+
+/* Women collection 1 */
+.women_collection_1{
+    background-image:url(/homework07/img/women_collection/women_collection_1.png);
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.women_collection_1>h2{
+    width: 288px;
+    height: 90px;
+    margin: 268px 0px 0px 32px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.women_collection_1>p{
+    width: 288px;
+    height: 30px;
+    margin: 0px 0px 0px 32px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.women_collection_1>button{
+    width: 93px;
+    height: 30px;
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 8px;
+    border:none;
+    margin-left: 32px;
+    margin-top: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* Women collection 2 */
+.women_collection_2 {
+    background-image:url(/homework07/img/women_collection/women_collection_2.png);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+.women_collection_2>h2{
+    width: 281px;
+    height: 90px;
+    margin: 0px;
+    margin-left: 22px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+}
+
+.women_collection_2>p{
+    width: 281px;
+    height: 30px;
+    margin: 53px 0px 0px 22px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+/* Women collection 3 */
+.women_collection_3{
+    background-image:url(/homework07/img/women_collection/women_collection_3.png);
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.women_collection_3>p{
+    width: 35px;
+    height: 30px;
+    margin: 53px 0px 0px 39px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.women_collection_3>h2{
+    width: 119px;
+    height: 45px;
+    margin: 0px;
+    margin-left: 39px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+/* Women collection 4 */
+.women_collection_4{
+    background-image:url(/homework07/img/women_collection/women_collection_4.png);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.women_collection_4>p{
+    width: 281px;
+    height: 30px;
+    margin: 64px 0px 0px 22px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+.women_collection_4>h2{
+    width: 281px;
+    height: 45px;
+    margin: 0px;
+    margin-left: 22px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+
+}
+
+/* Four products */
+.four_products{
+    margin: 0 auto;
+    margin-top: 30px;
+
+    width: 1112px;
+    height: 313px;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-between;
+}
+
+.louis_vouiton{
+    width: 255px;
+    height: 237px;
+    display: flex;
+    margin-top: 17px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.louis_vouiton>img{
+    margin: 40px 50px 40px 49px;
+    width:156px;
+    height:127px;
+}
+
+.louis_vouiton>a{
+    width: 119px;
+    height: 30px;
+    margin-left: 54px;
+
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.louis_vouiton>a:hover{
+    color:#EDA3B5;
+}
+
+.dolce_gabbana{
+    width:255px;
+    height:237px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dolce_gabbana>img{
+    margin:34px 78px 35px 77px;
+    width: 100px;
+    height: 138px;
+}
+
+.dolce_gabbana>a{
+    width: 145px;
+    height: 30px;
+    margin-left: 68px;
+
+
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.dolce_gabbana>a:hover{
+    color:#EDA3B5;
+}
+
+.gucci{
+    width:255px;
+    height:237px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gucci>img{
+    margin: 57px 50px 58px 49px;
+    width: 156px;
+    height: 92px;
+}
+
+.gucci>a{
+    width: 48px;
+    height: 30px;
+    margin-left: 56px;
+
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.gucci>a:hover{
+    color:#EDA3B5;
+}
+
+.dries_van_noten{
+    width:255px;
+    height:237px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dries_van_noten>img{
+    margin: 37px 81px 38px 80px;
+    width: 94px;
+    height: 132px;
+}
+
+.dries_van_noten>a{
+    width: 142px;
+    height: 30px;
+    margin-left: 51px;
+
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.dries_van_noten>a:hover{
+    color:#EDA3B5;
+}
+
+.slider_box_dots{
+    position:absolute;
+    margin-top: 277px;
+    width: 84px;
+    height: 24px;
+}
+
+.slider_dots{
+    width: 84px;
+    height: 12px;
+    margin: 0px 513px 34px 513px;
+}
+
+/* You may like */
+
+.you_may_like{
+    width: 1112px;
+    height: 1004px;
+    margin: 0 auto;
+    background-color:aquamarine;
+}
+
+.may_like_products{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+}
+
