@@ -165,7 +165,7 @@ nav{
 
 /* Women collection 1 */
 .women_collection_1{
-    background-image:url(/homework07/img/women_collection/women_collection_1.png);
+    background-image:url(../homework07/img/women_collection_1.png);
     grid-row-start: 1;
     grid-row-end: 3;
 }
@@ -220,7 +220,7 @@ nav{
 
 /* Women collection 2 */
 .women_collection_2 {
-    background-image:url(/homework07/img/women_collection/women_collection_2.png);
+    background-image:url(../homework07/img/women_collection_2.png);
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
@@ -262,7 +262,7 @@ nav{
 
 /* Women collection 3 */
 .women_collection_3{
-    background-image:url(/homework07/img/women_collection/women_collection_3.png);
+    background-image:url(../homework07/img/women_collection_3.png);
     grid-column-start: 3;
     grid-column-end: 4;
 }
@@ -301,7 +301,7 @@ nav{
 
 /* Women collection 4 */
 .women_collection_4{
-    background-image:url(/homework07/img/women_collection/women_collection_4.png);
+    background-image:url(../homework07/img/women_collection_4.png);
     grid-column-start: 2;
     grid-column-end: 4;
 }
