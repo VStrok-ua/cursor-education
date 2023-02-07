@@ -1,0 +1,181 @@
+* {
+   margin: 0;
+}
+
+body {
+   width: 100%;
+   height: auto;
+   overflow-x: hidden;
+}
+html {
+   height: auto;
+   scroll-behavior: smooth;
+   background-color: #E5E5E5;
+}
+
+a {
+text-decoration: none;
+}
+
+a, button {
+   cursor: pointer;
+}
+button {
+   border: none;
+}
+
+.container{
+   max-width: 100%;
+   box-sizing: border-box;
+   margin: 0 auto;
+   overflow: hidden;
+   background-color: white;
+}
+
+/* Header */
+header{
+   width: 100%;
+   display: flex; 
+   padding: 4.2% 0% 11.3% 11.3%;
+   flex-direction: column;
+   background: #F4F6F9;
+}
+
+
+/* Logo with text */
+.header_logo_and_text{
+   display: flex;
+}
+
+.logo_sports_text { 
+   width: 71px;
+   height: 30px;
+   margin-top: 2px;
+   margin-left: 4px;
+
+   font-family: 'Product Sans', sans-serif;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: -0.02em;
+   color: #5282F0;
+}
+
+/* Header */
+
+.header_h1{
+   width: 38%;
+   margin-top: 10%;
+   margin-bottom: 2%;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   display: flex;
+   align-items: flex-end;
+   letter-spacing: 0.03em;
+   color: #333333;
+}
+
+.header_p{
+   width: 36%;
+   margin-bottom: 4%;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   color: #4F4F4F;
+}
+
+.header_buttons{
+   width: 348px;
+   min-width: 315px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+.phones_background {
+   width: 54%;
+   position: absolute;
+   right: 0%;
+   top: 0;
+}
+
+.header_buttons>img{
+   width: 155px;
+   height: 45px;
+   cursor: pointer;
+}
+
+.header_buttons>img:hover{
+opacity: 70%;
+}
+
+@media screen and (max-width: 1070px){
+
+   .phones_background {
+      width: 65%;
+      position: absolute;
+      right: -17%;
+      top: 0;
+   }
+   .header_h1{
+      width: 58%;
+   }
+   
+   .header_p{
+      width: 50%;
+   }
+
+   .header_buttons{
+      width: 35%;
+   }
+}
+
+@media screen and (max-width: 720px){
+
+   .phones_background {
+      display: none;
+   }
+
+   header{
+      width: 100%;
+      display: flex;
+      padding: 2% 1% 4% 2%;
+      flex-direction: column;
+      justify-content: center;
+      background: #F4F6F9;
+   }
+
+   .header_logo_and_text{
+      display: flex;
+      justify-content: center;
+   }
+
+   .header_h1{
+      width: 98%;
+      margin-bottom: 33px;
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+   }
+   
+   .header_p{
+      text-align: center;
+      width: 98%;
+      margin-bottom: 4%;
+      font-size: 16px;
+      line-height: 23px;
+      color: #4F4F4F;
+   }
+
+   .header_buttons{
+      display: flex;
+      width: 99%;
+      justify-content: center;
+      column-gap: 10px;
+   }
+}

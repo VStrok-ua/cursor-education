@@ -1,0 +1,153 @@
+
+body{
+    margin: 0 auto;
+}
+
+.container{
+    width: 99%;
+    margin: 0 auto;
+    background-image:url(../homework10/img/background.jpg)
+}
+
+/* Top lightsaber */
+.lightsaber_top{
+    margin: 5px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+}
+
+.lightsaber_top>img{
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+}
+
+.lightsaber_top_crystal{
+    position: absolute;
+    z-index: 0;
+    left: 200px;
+    margin-bottom: 2px;
+    width: 0px;
+    height: 15px;
+    background-color:red;
+    box-shadow: 0px 0px 25px 0px rgba(255,0,0,1);
+    border-radius: 15px;
+    transition-duration: 0.2s, 0.1s;
+    transition-property: width, box-shadow;
+    transition-timing-function: ease;
+    
+}
+
+.lightsaber_img:hover + .lightsaber_top_crystal{
+    width: 600px;
+    transition-duration: 0.5s, 0.8s;
+    transition-property: width, box-shadow;
+    box-shadow: 0px 0px 25px 5px rgba(255,0,0,1);
+}
+
+
+
+/* Two lightsabers */
+.two_lightsabers{
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 600px;
+}
+
+.two_lightsabers:hover .lightsaber_1{
+    animation-play-state: paused;
+}
+
+.two_lightsabers:hover .lightsaber_2{
+    animation-play-state: paused;
+}
+
+.two_lightsabers:hover{
+transform: scale(1.1);
+}
+
+.lightsaber_1{
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(45deg);
+    animation-name: red-lightsaber;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes red-lightsaber{
+    0%{
+        transform: rotate(-20deg);
+        left: 10%;
+    }
+    100%{
+        transform: rotate(45deg);
+        left: 50%;
+    }
+
+}
+
+.lightsaber_1>img{
+    margin-top: -30px;
+    width: auto;
+    height: 150px;
+}
+
+.lightsaber_1_crystal{
+    width: 8px;
+    height: 350px;
+    background-color: red;
+    box-shadow: 0px 0px 25px 5px rgba(255,0,0,1);
+    border-radius: 5px;
+}
+
+.lightsaber_2{
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(-90deg);
+    animation-name: black-lightsaber;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes black-lightsaber{
+    0%{
+        transform: rotate(20deg);
+        left: 90%;
+    }
+
+    100%{
+        left: 50%;
+        transform: rotate(-45deg);
+    }
+
+}
+
+.lightsaber_2>img{
+    margin-top: -30px;
+    width: auto;
+    height: 150px;
+}
+
+.lightsaber_2_crystal{
+    width: 8px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 25px 5px rgb(255, 255, 255);
+    border-radius: 5px;
+}
