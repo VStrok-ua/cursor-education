@@ -86,7 +86,7 @@ transform: scale(1.1);
     align-items: center;
     transform: rotate(45deg);
     animation-name: red-lightsaber;
-    /* animation-duration: 1.2s; */
+    animation-duration: 1.2s;
     animation-timing-function: ease-in;
     animation-iteration-count:infinite;
     animation-direction: alternate;
@@ -128,7 +128,7 @@ transform: scale(1.1);
     align-items: center;
     transform: rotate(-90deg);
     animation-name: black-lightsaber;
-    /* animation-duration: 1.2s; */
+    animation-duration: 1.2s;
     animation-timing-function: ease-in;
     animation-iteration-count:infinite;
     animation-direction: alternate;
