@@ -184,90 +184,96 @@ transform: scale(1.1);
 }
 
 .one{
-    animation: first-ball 3s 0s infinite;
-    background-color: red;
+    animation: first-ball 6s 1s infinite;
 }
 
 @keyframes first-ball {
-    0%{
-        rotate: 0deg;
-        transform-origin: top;
-    }
-    15%{
-        rotate: 90deg;
-        transform-origin: top;
-        background-color: black;
-    } 
-    30%{
+    35%{
         rotate: 0deg;
         transform-origin: top;
         background-color: red;
+    }
+    80%{
+        rotate: 90deg;
+        transform-origin: top;
+        background-color: red;
+    } 
+    95%{
+        rotate: 0deg;
+        transform-origin: top;
+        background-color: black;
     }
 }
 
 .two{
-    animation: ball-two 3s 0s infinite;
-    background-color: red;
+    animation: ball-two 6s 1.5s infinite;
 }
 
 @keyframes ball-two {
-    30%{
-        background-color: black;
-    }
-    31%{
+    20%{
         background-color: red;
     }
+    65%{
+        background-color: red;
+    }
+
+    85%{
+        background-color: black;
+    }
+
 }
 
 .three{
-    animation: ball-three 3s 0s infinite;
-    background-color: red;
+    animation: ball-three 6s 2s infinite;
 }
 
 @keyframes ball-three {
-    40%{
-        background-color: black;
-    }
-    41%{
+    20%{
         background-color: red;
+    }
+    55%{
+        background-color: red;
+    }
+
+    60%{background-color: black;
+
     }
 }
 
 .four{
-    animation: ball-four 3s 0s infinite;
-    background-color: red;
+    animation: ball-four 6s 2.5s infinite;
 }
 
 @keyframes ball-four {
-    45%{
-        background-color: black;
+    20%{
+        background-color: red;
     }
-    50%{
+    40%{
         background-color: red;
     }
 
-    55%{
-        background-color: red;
+    50%{
+        background-color: black;
     }
 }
 
 .five{
-    animation: five-ball 3s 1.5s infinite;
-    background-color:black;
+    animation: five-ball 6s 3s infinite;
 }
 
 @keyframes five-ball {
-    0%{
+    20%{
         rotate: 0deg;
         transform-origin: top;
+        background-color: red;
         
     }
-    15%{
+    25%{
         rotate: -90deg;
         transform-origin: top;   
         background-color: red
     } 
-    30%{
+    50%{
         rotate: 0deg;
         transform-origin: top;
         background-color: black;
