@@ -86,7 +86,7 @@ transform: scale(1.1);
     align-items: center;
     transform: rotate(45deg);
     animation-name: red-lightsaber;
-    animation-duration: 1.2s;
+    /* animation-duration: 1.2s; */
     animation-timing-function: ease-in;
     animation-iteration-count:infinite;
     animation-direction: alternate;
@@ -128,7 +128,7 @@ transform: scale(1.1);
     align-items: center;
     transform: rotate(-90deg);
     animation-name: black-lightsaber;
-    animation-duration: 1.2s;
+    /* animation-duration: 1.2s; */
     animation-timing-function: ease-in;
     animation-iteration-count:infinite;
     animation-direction: alternate;
@@ -205,12 +205,58 @@ transform: scale(1.1);
     }
 }
 
-.ten{
-    animation: ten-ball 3s 1.5s infinite;
+.two{
+    animation: ball-two 3s 0s infinite;
+    background-color: red;
+}
+
+@keyframes ball-two {
+    30%{
+        background-color: black;
+    }
+    31%{
+        background-color: red;
+    }
+}
+
+.three{
+    animation: ball-three 3s 0s infinite;
+    background-color: red;
+}
+
+@keyframes ball-three {
+    40%{
+        background-color: black;
+    }
+    41%{
+        background-color: red;
+    }
+}
+
+.four{
+    animation: ball-four 3s 0s infinite;
+    background-color: red;
+}
+
+@keyframes ball-four {
+    45%{
+        background-color: black;
+    }
+    50%{
+        background-color: red;
+    }
+
+    55%{
+        background-color: red;
+    }
+}
+
+.five{
+    animation: five-ball 3s 1.5s infinite;
     background-color:black;
 }
 
-@keyframes ten-ball {
+@keyframes five-ball {
     0%{
         rotate: 0deg;
         transform-origin: top;
@@ -228,11 +274,3 @@ transform: scale(1.1);
     }
 
 }
-
-
-
-
-
-
-
-
